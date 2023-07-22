@@ -3,8 +3,8 @@ import Nav from "@components/Nav.jsx";
 import Provider from "@components/Provider.jsx";
 
 export const metadata = {
-    title: "PromptCraftAI",
-    description: "Our platform is a playground for writers, artists, thinkers, and problem solvers who seek inspiration and fresh ideas. Powered by cutting-edge artificial intelligence, we dynamically generate prompts that will spark your imagination and fuel your creative journey."
+    title: "PromptCraft",
+    description: "Our platform is a playground for writers, artists, thinkers, and problem solvers who seek inspiration and fresh ideas. We dynamically generate prompts that will spark your imagination and fuel your creative journey."
 }
 
 const RootLayout = ({children}) => {

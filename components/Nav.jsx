@@ -23,13 +23,13 @@ const Nav = () => {
     <nav className="flex-between w-full mb-16 pt-3">
       <Link href="/" className="flex gap-2 flex-center">
         <Image
-            src="/assets/images/logo.png"
-            alt="PromptCraftAI Logo"
+            src="/assets/images/logo3.png"
+            alt="PromptCraft Logo"
             width={50}
             height={50}
             className="objet-contain"
         />
-        <p className="logo_text">PromptCraftAI</p>
+        <p className="logo_text">PromptCraft</p>
       </Link>
       {/* Desktop Navigation  */}
       <div className="sm:flex hidden">
@@ -38,7 +38,7 @@ const Nav = () => {
                 <Link href="/create-prompt" className="black_btn">
                     Post Prompt
                 </Link>
-                <button type="button" onClick={signOut} className="outline_btn">
+                <button type="button" onClick={signOut} className="black_btn">
                 Logout
                 </button>
                 <Link href="/profile">
